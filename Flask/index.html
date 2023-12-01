@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Depression Prediction</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+   </head>
+
+   <body>
+      <div id="wrap">
+         <h1>Depression Prediction</h1>
+         <section id="health" class="frame2">
+            <div class="login">
+               <form action="{{ url_for('predict') }}" method="post">
+                  <table class="entryForm">
+                     <tr>
+                        <th>Gender:</th>
+                        <td>
+                           <select id="gender" name="gender">
+                              <option value="0">Male</option>
+                              <option value="1">Female</option>
+                           </select>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Age:</th>
+                        <td><input type="text" name="age" placeholder="Age" required="required" /></td>
+                     </tr>
+                     <tr>
+                        <th>Major:</th>
+                        <td><input type="text" name="major" placeholder="Major" required="required" /></td>
+                     </tr>
+                     <tr>
+                        <th>Year:</th>
+                        <td><input type="text" name="year" placeholder="Year" required="required" /></td>
+                     </tr>
+                     <tr>
+                        <th>CGPA:</th>
+                        <td><input type="text" name="cgpa" placeholder="CGPA" required="required" /></td>
+                     </tr>
+                     <tr>
+                        <th>Marriage:</th>
+                        <td>
+                           <input type="radio" name="marriage" value="1" checked>Yes
+                           <input type="radio" name="marriage" value="0">No
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Anxiety:</th>
+                        <td>
+                           <input type="radio" name="anxiety" value="1" checked>Yes
+                           <input type="radio" name="anxiety" value="0">No
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Panic:</th>
+                        <td>
+                           <input type="radio" name="panic" value="1" checked>Yes
+                           <input type="radio" name="panic" value="0">No
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Treatment:</th>
+                        <td>
+                           <input type="radio" name="treatment" value="1" checked>Yes
+                           <input type="radio" name="treatment" value="0">No
+                        </td>
+                     </tr>
+                  </table>
+                  <div class="btns">
+                     <button type="reset" class="btn btn-clear">Reset</button>
+                     <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+                  </div>
+               </form>
+            </div>
+         </section>
+         <br>
+         <br>
+         {{ prediction_text }}
+      </div>
+   </body>
+</html>
