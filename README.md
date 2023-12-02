@@ -17,3 +17,23 @@ The primary objectives include monitoring model performance, versions, and param
 ![image](https://github.com/soukaina-sta/Assignment-Mlflow/assets/75736345/807d4412-403d-4999-baa7-2d0270612ebb)
 
 To enhance reproducibility, the best-performing model is preserved in the ONNX format. Additionally, the preprocessing transformations specific to this model, implemented using the transformers API, are stored in a pickle file.
+
+# FastAPI
+
+"app.py":The FastAPI application script
+"Docker file": Dockerfile configuration for packaging the FastAPI application.
+"requirements.txt" file outlines the necessary Python packages
+
+# FLASK
+"index.html": This file encapsulates the HTML code, defining the structure and layout for the FastAPI application.
+"style.css": This file is dedicated to Cascading Style Sheets (CSS) and likely contains code for styling and presentation within the application.
+"app1.py":The Flask application script
+"Docker file": Dockerfile configuration for packaging the FastAPI application.
+
+# Postnam
+Postman is a tool that allows the testing of APIs, ensuring the accurate utilization of endpoints for both the FastAPI and Flask applications.
+
+
+
+
+
