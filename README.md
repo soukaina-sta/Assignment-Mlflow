@@ -23,6 +23,11 @@ To enhance reproducibility, the best-performing model is preserved in the ONNX f
 
 "requirements.txt" file outlines the necessary Python packages
 
+![image](https://github.com/soukaina-sta/Assignment-Mlflow/assets/75736345/e8894b0e-0e1f-48a3-8c66-0ba98c090937)
+
+![image](https://github.com/soukaina-sta/Assignment-Mlflow/assets/75736345/ef0caac4-c1fa-4eef-aded-24b7ed0e263c)
+
+
 # FLASK
 "index.html": This file encapsulates the HTML code, defining the structure and layout for the FastAPI application.
 
@@ -31,7 +36,9 @@ To enhance reproducibility, the best-performing model is preserved in the ONNX f
 "app1.py":The Flask application script
 
 "Docker file": Dockerfile configuration for packaging the FastAPI application.
+![Uploading image.png…]()
 
+![image](https://github.com/soukaina-sta/Assignment-Mlflow/assets/75736345/2f111c18-ae43-42f8-b953-e8c141f3375b)
 # Postnam
 Postman is a tool that allows the testing of APIs, ensuring the accurate utilization of endpoints for both the FastAPI and Flask applications.
 
