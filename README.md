@@ -36,7 +36,9 @@ To enhance reproducibility, the best-performing model is preserved in the ONNX f
 "app1.py":The Flask application script
 
 "Docker file": Dockerfile configuration for packaging the FastAPI application.
-![Uploading image.png…]()
+![image](https://github.com/soukaina-sta/Assignment-Mlflow/assets/75736345/e76e7cec-be4b-4277-812b-aa4abc52c175)
+![image](https://github.com/soukaina-sta/Assignment-Mlflow/assets/75736345/735226cc-a2c2-46ad-890a-d2a26b61933a)
+
 
 ![image](https://github.com/soukaina-sta/Assignment-Mlflow/assets/75736345/2f111c18-ae43-42f8-b953-e8c141f3375b)
 # Postnam
