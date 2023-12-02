@@ -21,13 +21,18 @@ To enhance reproducibility, the best-performing model is preserved in the ONNX f
 # FastAPI
 
 "app.py":The FastAPI application script
+
 "Docker file": Dockerfile configuration for packaging the FastAPI application.
+
 "requirements.txt" file outlines the necessary Python packages
 
 # FLASK
 "index.html": This file encapsulates the HTML code, defining the structure and layout for the FastAPI application.
+
 "style.css": This file is dedicated to Cascading Style Sheets (CSS) and likely contains code for styling and presentation within the application.
+
 "app1.py":The Flask application script
+
 "Docker file": Dockerfile configuration for packaging the FastAPI application.
 
 # Postnam
